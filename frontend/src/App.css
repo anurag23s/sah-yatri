@@ -1,0 +1,19 @@
+/* Make the root and body full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Optional: light background for full screen */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Make main app content stretch full width */
+.app-container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
